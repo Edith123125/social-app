@@ -1,11 +1,11 @@
 import React, { useState } from 'react'; 
-import Comment from "./Comments";  // Not "./components/Comments.jsx"
+import Comment from "./Comments";  
 
 
 const Post = ({ content }) => {
   const [comments, setComments] = useState([
-    { id: 1, text: "Great post!" },
-    { id: 2, text: "React is amazing!" },
+  
+   
   ]);
   const [newComment, setNewComment] = useState('');
 

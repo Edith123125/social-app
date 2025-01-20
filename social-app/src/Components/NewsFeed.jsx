@@ -1,15 +1,16 @@
 import React from 'react';
-import Post from './Post';  // Component to display a single post
+import Post from './Post';  
 
 const NewsFeed = () => {
   const posts = [
     { id: 1, content: "Learning React is awesome!" },
-    { id: 2, content: "Just finished a project!" },
-    { id: 3, content: "Can't wait for the next React update!" },
+    { id: 2, content: "props and states are just amazing!" },
+    { id: 3, content: "Oooh Usestate turns out to be my best!" },
   ];
 
   return (
     <div>
+      <h3>NewsFeed</h3>
       {posts.map(post => (
         <Post key={post.id} content={post.content} />
       ))}
