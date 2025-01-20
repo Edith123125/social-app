@@ -9,7 +9,7 @@ const Notifications = () => {
 
   return (
     <div>
-      <h3>Notifications</h3>
+      <h2>Notifications</h2>
       {notifications.map(notification => (
         <div key={notification.id}>
           <p>{notification.message}</p>

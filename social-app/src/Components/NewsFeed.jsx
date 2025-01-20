@@ -10,7 +10,7 @@ const NewsFeed = () => {
 
   return (
     <div>
-      <h3>NewsFeed</h3>
+      <h2>NewsFeed</h2>
       {posts.map(post => (
         <Post key={post.id} content={post.content} />
       ))}
